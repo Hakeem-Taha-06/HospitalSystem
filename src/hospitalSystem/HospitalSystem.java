@@ -6,6 +6,11 @@ public class HospitalSystem {
 	private ArrayList<Patient> patients = new ArrayList<Patient>();
 	private ArrayList<Appointments> appointments = new ArrayList<Appointments>();
 	
+	public HospitalSystem() {
+		
+	}
+	
+	
 	
 	public void addDoctor(String name, int ID, String email, String phoneNumber,
 						DoctorSpecialization specialization, ArrayList<String> availableTime, RoomNum roomNum) {
